@@ -7,10 +7,715 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!-- <div class="napominalocka">РЕАЛИЗОВАТЬ КАРТИНКИ БЕЗ ФОНА МОЖНО С ПОМОЩЬЮ SVG</div> -->
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__row contacts-header">
+                <div class="header__column">
+                    <a class="contacts-header__item" href="hosting@gmail.com">
+                        <img src="../img/header/icons/1.svg" alt="">
+                        hosting@gmail.com
+                    </a>
+                    <a class="contacts-header__item" href="91999999999">
+                        <img src="../img/header/icons/2.svg" alt="">
+                        +91 999999999
+                    </a>
+                </div>
+                <div class="header__column">
+                    <a class="contacts-header__item">
+                        <img src="../img/header/icons/3.svg" alt=""> Support
+                    </a>
+                    <a class="contacts-header__item">
+                        <img src="../img/header/icons/4.svg" alt=""> Help
+                    </a>
+                </div>
+            </div>
+            <nav class="header__row header__nav nav-header">
+                <div class="nav-header__column">
+                    <img class="nav-header__logo" src="../img/header/logo.png">
+                </div>
+                <div class="nav-header__column ">
+                    <ul class="nav-header__links-wrapper">
+                        <li class="nav-header__link"><a href="#">Home</a></li>
+                        <li class="nav-header__link"><a href="#">Domain</a></li>
+                        <li class="nav-header__link"><a href="#">Web Hosting</a></li>
+                        <li class="nav-header__link"><a href="#">Reseller Hosting</a></li>
+                        <li class="nav-header__link"><a href="#">Servers</a></li>
+                        <li class="nav-header__link"><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="nav-header__column">
+                    <div class="nav-header__control-panel">
+                        <img src="../img/header/icons/nav 1.svg" alt="" class="nav-header__search">
+                        <img src="../img/header/icons/nav 2.svg" alt="" class="nav-header__world">
+                        <button class="nav-header__control-panel-btn nav-header__login">login</button>
+                        <button class="nav-header__control-panel-btn nav-header__sign-up">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="banner container">
+        <div class="banner__content">
+            <div class="banner__title">
+                Reliable Web Hosting Platform
+                for Your Website
+            </div>
+            <div class="banner__text">
+                Fully Managed High Performance Web Hosting With Free Domain
 
+            </div>
+            <div class="banner__btns-wrapper">
+                <button class="banner__btn">
+                    Try for 7 days free
+                </button>
+                <button class="banner__btn">
+                    Choose your plan
+                </button>
+            </div>
+        </div>
+        <div class="banner__imgs">
+            <img src="../img/banner/1.svg" alt="">
+        </div>
+        <div class="banner__circle">
+
+        </div>
+    </section>
+    <section class="stock">
+        <div class="stock__wrapper container">
+            <div class="stock__column">
+                <div class="stock__row stock__text-content">
+                    <div class="stock__title">
+                        Get 10% Off Today
+                    </div>
+                    <div class="stock__text">
+                        Grab the holiday offer.This offer will end in 3 days.Hurry Up!
+                        Get your perfect domain starting from 149/Mo.
+                    </div>
+                </div>
+
+            </div>
+            <div class="stock__column">
+                <div class="stock__row stock__search-wrapper">
+                    <input type="text" class="stock__search-sting" placeholder="Type Your Domain Name">
+                    <select name="" id="" class="stock__domen">
+                        <option>.com</option>
+                        <option>.org</option>
+                        <option>.info</option>
+                        <option>.store</option>
+                        <option>.net</option>
+                        <option>.co.uk</option>
+                    </select>
+                    <div class="stock__search-btn">
+                        Search
+                    </div>
+                </div>
+                <div class="stock__row stock__domen-info">
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .com
+                        </div>
+                        <div class="stock__domen-price">
+                            199/Mo
+                        </div>
+                    </div>
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .org
+                        </div>
+                        <div class="stock__domen-price">
+                            179/Mo
+                        </div>
+                    </div>
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .info
+                        </div>
+                        <div class="stock__domen-price">
+                            189/Mo
+                        </div>
+                    </div>
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .store
+                        </div>
+                        <div class="stock__domen-price">
+                            199/Mo
+                        </div>
+                    </div>
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .net
+                        </div>
+                        <div class="stock__domen-price">
+                            159/Mo
+                        </div>
+                    </div>
+                    <div class="stock__domen-item">
+                        <div class="stock__domen-name">
+                            .co.uk
+                        </div>
+                        <div class="stock__domen-price">
+                            299/Mo
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="join-us container section-padding">
+        <div class="join-us__title title">
+            What will you get if you join us ?
+        </div>
+        <div class="join-us__subtitle subtitle">
+            Get the best hosting service at the price you can afford
+        </div>
+        <div class="join-us__content">
+            <div class="join-us__item">
+                <div class="join-us__icon">
+                    <img src="../img/join-us/1.svg" alt="">
+                </div>
+                <div class="join-us__main-text">
+                    5000+
+                </div>
+                <div class="join-us__sub-text">
+                    Happy Clients
+                </div>
+            </div>
+            <div class="join-us__item">
+                <div class="join-us__icon">
+                    <img src="../img/join-us/2.svg" alt="">
+                </div>
+                <div class="join-us__main-text">
+                    Maximum
+                </div>
+                <div class="join-us__sub-text">
+                    Uptimes
+                </div>
+            </div>
+            <div class="join-us__item">
+                <div class="join-us__icon">
+                    <img src="../img/join-us/3.svg" alt="">
+                </div>
+                <div class="join-us__main-text">
+                    20+
+                </div>
+                <div class="join-us__sub-text">
+                    Server Locations
+                </div>
+            </div>
+            <div class="join-us__item">
+                <div class="join-us__icon">
+                    <img src="../img/join-us/4.svg" alt="">
+                </div>
+                <div class="join-us__main-text">
+                    24/7
+                </div>
+                <div class="join-us__sub-text">
+                    Live Support
+                </div>
+            </div>
+            <div class="join-us__item">
+                <div class="join-us__icon">
+                    <img src="../img/join-us/5.svg" alt="">
+                </div>
+                <div class="join-us__main-text">
+                    Tire 3
+                </div>
+                <div class="join-us__sub-text">
+                    Certified Data Center
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing section-padding container">
+        <div>
+            <div class="pricing__title title">
+                Pricing Plans
+            </div>
+            <div class="pricing__subtitle subtitle">
+                Simple,transparent pricing that grows with you.
+            </div>
+        </div>
+
+        <div class="pricing__price-change-wrapper">
+            <div class="pricing__price-change">
+                <button class="pricing__price-change-btn pricing__price-change-btn--active">Monthly</button>
+                <button class="pricing__price-change-btn">Yearly</button>
+            </div>
+
+        </div>
+        <div class="pricing__content">
+            <div class="pricing__item">
+                <div class="pricing__item-title">
+                    Wordpress Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 99/<span>Mo</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline ">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>199</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    All inclusive WordPress Hosting with 24/7 live support and pre-installed WP, theme and plugins.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> Preinstalled WordPress</li>
+                    <li> <img src="../img/pricing/ul.svg"> Preinstalled Themes/Plugins</li>
+                    <li> <img src="../img/pricing/ul.svg"> Free Migration Assistance</li>
+                    <li> <img src="../img/pricing/ul.svg"> WP Optimized Environment</li>
+                    <li> <img src="../img/pricing/ul.svg"> 30 Days Money Back</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">View Plans</button>
+                </div>
+            </div>
+            <div class="pricing__item pricing__item--active ">
+                <div class="pricing__item-title">
+                    Shared Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 125/<span>Mo</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline ">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>149</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    Host multiple websites over our feature-rich shared hosting delivering 99.95% Uptime.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> Free Domain</li>
+                    <li> <img src="../img/pricing/ul.svg"> Host Multiple Websites</li>
+                    <li> <img src="../img/pricing/ul.svg"> Unmetered Bandwidth</li>
+                    <li> <img src="../img/pricing/ul.svg"> Daily Backups</li>
+                    <li> <img src="../img/pricing/ul.svg"> 99.95% Uptime</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">Choose Plan</button>
+                </div>
+            </div>
+            <div class="pricing__item">
+                <div class="pricing__item-title">
+                    VPS Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 999/<span>Mo</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column dn">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>199</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    With private server environment, experience performance & reliability of managed hosting.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> SSD Storage</li>
+                    <li> <img src="../img/pricing/ul.svg"> Guaranteed CPU & RAM</li>
+                    <li> <img src="../img/pricing/ul.svg"> cPanel/Plesk (Optional)</li>
+                    <li> <img src="../img/pricing/ul.svg"> SSH/RDP Access</li>
+                    <li> <img src="../img/pricing/ul.svg"> 30 Days Money Back</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">View Plans</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose-us container section-padding">
+        <div class="choose-us__section-title">
+            <div class="choose-us__title title">
+                Why Choose Host.Co.In ?
+            </div>
+            <div class="choose-us__subtitle subtitle">
+                With Host.co.in stand apart in the sphere of World Wide Web with maximum flexibility offering elevated
+                packages
+                for all your business needs ensuring smooth execution of your business activities.
+            </div>
+        </div>
+
+        <div class="choose-us__content">
+            <div class="choose-us__item">
+                <div class="choose-us__item-img">
+                    <img src="../img/choose-us/1.svg" alt="">
+                </div>
+
+                <div class="choose-us__item-title item-title">
+                    Loading Speed
+                </div>
+                <div class="choose-us__item-text item-text">
+                    Our super-fast network with latest and modern technology ensures accelerated response time and
+                    processing along with swift website page loading speed.
+                </div>
+
+            </div>
+            <div class="choose-us__item">
+                <div class="choose-us__item-img">
+                    <img src="../img/choose-us/2.svg" alt="">
+                </div>
+
+                <div class="choose-us__item-title item-title">
+                    Network Security
+                </div>
+                <div class="choose-us__item-text item-text">
+                    Our Certified Tier III and Green Data
+                    centers in India have the lowest latency with 4 different layers in our Software Defined Network.
+                </div>
+
+            </div>
+            <div class="choose-us__item">
+                <div class="choose-us__item-img">
+                    <img src="../img/choose-us/3.svg" alt="">
+                </div>
+
+                <div class="choose-us__item-title item-title">
+                    Hosting Reliability
+                </div>
+                <div class="choose-us__item-text item-text">
+                    Equipped with an advanced infrastructure and server architectures together with sufficient resources
+                    help create a robust platform that ensures business continuity.
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="migration container section-padding">
+        <div class="migration__section-title">
+            <div class="migration__title title">
+                Migration is not an issue with us
+            </div>
+            <div class="migration__subtitle subtitle">
+                We provied free migration service so that ours customers can manage their work easily
+            </div>
+        </div>
+        <div class="migration__content">
+            <div class="migration__item">
+                <div class="migration__item-title">
+                    Hassle Free Migration
+                </div>
+                <div class="migration__item-text">
+                    Our technical expert team will help you to migrate your site from your current hosting provider to
+                    Host.co.in, You don't have to worry about any of the migration issues.
+                </div>
+                <div class="migration__item-button-wrapper">
+                    <button class="migration__item-button">Contact Sales</button>
+                </div>
+            </div>
+            <div class="migration__img">
+                <img src="../img/migration/1.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="comments container section-padding">
+        <div class="comments__section-title">
+            <div class="comments__title title">
+                What our clients say
+            </div>
+            <div class="comments__subtitle subtitle">
+                Your trusted hosting partner since 2005. Here's what some of our customers say about HOST.CO.IN
+            </div>
+        </div>
+        <div class="comments__slider">
+            <div class="comments__slider-wrapper">
+                <div class="comments__slide">
+                    <div class="comments__slide-img">
+                        <img src="../img/comments/1.jpg" alt="">
+                    </div>
+                    <div class="comments__slide-content">
+                        Host provides solid value in VPS hosting with great prices that provide the best premium support
+                        and excellent up-time in the industry.
+                    </div>
+                    <div class="comments__slide-name">
+                        Mr. Israr Ahmad
+                    </div>
+                    <div class="comments__slide-rate">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="comments__slide">
+                    <div class="comments__slide-img">
+                        <img src="../img/comments/2.jpg" alt="">
+                    </div>
+                    <div class="comments__slide-content">
+                        Being in education we need an interactive and user friendly online platform for admissions and
+                        registrations. Host offered us the complete package.
+                    </div>
+                    <div class="comments__slide-name">
+                        Mr. Manoj Pillai
+                    </div>
+                    <div class="comments__slide-rate">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="comments__slide">
+                    <div class="comments__slide-img">
+                        <img src="../img/comments/3.jpg" alt="">
+                    </div>
+                    <div class="comments__slide-content">
+                        My company has had a great long standing relationship with Host. Their response time and
+                        customer support has been a boon.
+                    </div>
+                    <div class="comments__slide-name">
+                        Mr. Yogesh Gosavi
+                    </div>
+                    <div class="comments__slide-rate">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hosting container section-padding">
+        <div class="hosting__section-title">
+            <div class="hosting__title title">
+                Web Hosting Add-Ons
+            </div>
+            <div class="hosting__subtitle subtitle">
+                HOST.CO.IN. offers several Add-Ons services that you can use to increase your web site's functionality,
+                security, and more.
+            </div>
+        </div>
+        <div class="hosting__content">
+            <div class="hosting__item">
+                <div class="hosting__item-icon">
+                    <img src="../img/hosting/1.svg" alt="">
+                </div>
+                <div class="hosting__item-title">
+                    SSL Certificate
+                </div>
+                <div class="hosting__item-text">
+                    Secure your transactions, website's communication and internet browser with SSL encryption
+                    certificates of HOST.CO.IN
+                </div>
+                <div class="hosting__item-price">
+                    <img src="../img/hosting/rupee.svg" alt=""> 2499/Yr
+                </div>
+                <div class="hosting__item-btn-wrapper">
+                    <div class="hosting__item-btn">
+                        Learn More
+                    </div>
+                </div>
+            </div>
+            <div class="hosting__item">
+                <div class="hosting__item-icon">
+                    <img src="../img/hosting/2.svg" alt="">
+                </div>
+                <div class="hosting__item-title">
+                    Spam Experts
+                </div>
+                <div class="hosting__item-text">
+                    Protect your mailbox from Spam, virus and malware with a complete solution from India's web hosting
+                    provider HOST.CO.IN
+                </div>
+                <div class="hosting__item-price">
+                    <img src="../img/hosting/rupee.svg" alt=""> 90/Mo
+                </div>
+                <div class="hosting__item-btn-wrapper">
+                    <div class="hosting__item-btn">
+                        Learn More
+                    </div>
+                </div>
+            </div>
+            <div class="hosting__item">
+                <div class="hosting__item-icon">
+                    <img src="../img/hosting/3.svg" alt="">
+                </div>
+                <div class="hosting__item-title">
+                    Backup Solutions
+                </div>
+                <div class="hosting__item-text">
+                    Let the experts handle your crucial data, backup your data from reliable backup and recovery
+                    solution from HOST.CO.IN
+                </div>
+                <div class="hosting__item-price">
+                    <img src="../img/hosting/rupee.svg" alt=""> 500/Mo
+                </div>
+                <div class="hosting__item-btn-wrapper">
+                    <div class="hosting__item-btn">
+                        Learn More
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-website container section-padding">
+        <div class="get-website__section-title">
+            <div class="get-website__title title">
+                Get Your Website Live Today
+            </div>
+            <div class="get-website__subtitle subtitle">
+                Get everything that you require to set up your personal / business website and establish your online
+                presence. Service includes web hosting in India, free domain registration along with 24x7 Support.
+            </div>
+        </div>
+        <div class="get-website__content">
+            <div class="get-website__item">
+                <div class="get-website__icon">
+                    <img src="../img/get-website/1.svg" alt="">
+                </div>
+                <div class="get-website__text">
+                    Register
+                </div>
+            </div>
+            <div id="get-website__first-line">
+                <img src="../img/get-website/line-1.svg" alt="">
+            </div>
+            <div class="get-website__item">
+                <div class="get-website__icon">
+                    <img src="../img/get-website/2.svg" alt="">
+                </div>
+                <div class="get-website__text">
+                    Choose Plan
+                </div>
+            </div>
+            <div id="get-website__second-line">
+                <img src="../img/get-website/line-2.svg" alt="">
+            </div>
+            <div class="get-website__item">
+                <div class="get-website__icon">
+                    <img src="../img/get-website/3.svg" alt="">
+                </div>
+                <div class="get-website__text">
+                    See your website live
+                </div>
+            </div>
+        </div>
+        <div class="get-website__starting-block">
+            <div class="get-website__starting-text">
+                Starting at just ₹125/mo
+
+            </div>
+            <button class="get-website__starting-btn">
+                Get Started
+            </button>
+        </div>
+    </section>
+    <div class="section-padding"></div>
+    <section class="subscribe ">
+        <div class="subscribe__wrapper container">
+            <div class="subscribe__content">
+                <div class="subscribe__title">
+                    Subscribe To Our Newsletter!
+                </div>
+                <div class="subscribe__subtitle">
+                    Get Regularly News and Exclusive Offers
+                </div>
+            </div>
+            <form action="" class="subscribe__email-enter">
+                <input type="text" name="email" class="subscribe__input" placeholder="Enter Email">
+                <input type="submit" value="Subscribe" class="subscribe__submit">
+            </form>
+        </div>
+    </section>
+    <footer class="footer container section-padding">
+        <div class="footer__wrapper">
+            <div class="footer__row">
+                <div class="footer__column">
+                    <div class="footer__logo">
+                        <img src="../img/header/logo.png" alt="">
+                    </div>
+                    <div class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elem
+                    </div>
+                    <div class="footer__social-media">
+                        <img src="../img/footer/1.svg" alt="">
+                        <img src="../img/footer/2.svg" alt="">
+                        <img src="../img/footer/3.svg" alt="">
+                        <img src="../img/footer/4.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__column-title">
+                        Company
+                    </div>
+                    <ul class="footer__link-wrapper">
+                        <li class="footer__link"><a href="">About Us</a></li>
+                        <li class="footer__link"><a href="">Contact Us</a></li>
+                        <li class="footer__link"><a href="">Client Area</a></li>
+                        <li class="footer__link"><a href="">Data Center</a></li>
+                        <li class="footer__link"><a href="">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__column-title">Services</div>
+                    <ul class="footer__link-wrapper">
+                        <li class="footer__link"><a href="">cPanel Hosting</a></li>
+                        <li class="footer__link"><a href="">VPS Hosting</a></li>
+                        <li class="footer__link"><a href="">Dedicated Servers</a></li>
+                        <li class="footer__link"><a href="">Cloud Hosting</a></li>
+                        <li class="footer__link"><a href="">Reseller Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__column-title">Resources</div>
+                    <ul class="footer__link-wrapper">
+                        <li class="footer__link"><a href=""> Web Hosting Blogs</a></li>
+                        <li class="footer__link"><a href="">Knowledge Base</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__column-title">Legal</div>
+                    <ul class="footer__link-wrapper">
+                        <li class="footer__link"><a href=""> Terms of Service</a></li>
+                        <li class="footer__link"><a href="">Service Level Aggrement</a></li>
+                        <li class="footer__link"><a href="">Privacy Policy</a></li>
+                        <li class="footer__link"><a href="">Billing Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__copyright">
+                    Copyright © 2022, host.co.in. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

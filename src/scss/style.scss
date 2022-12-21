@@ -1,0 +1,50 @@
+*{padding:0;margin:0;border:none}*,*::before,*::after{box-sizing:border-box}a,a:link,a:visited{text-decoration:none}a:hover{text-decoration:none}aside,nav,footer,header,section,main{display:block}h1,h2,h3,h4,h5,h6,p{font-size:inherit;font-weight:inherit}ul,ul li{list-style:none}img{vertical-align:top}img,svg{max-width:100%;height:auto}address{font-style:normal}input,textarea,button,select{font-family:inherit;font-size:inherit;color:inherit;background-color:transparent}input::-ms-clear{display:none}button,input:focus,input:active,button:focus,button:active{outline:none}button::-moz-focus-inner{padding:0;border:0}label{cursor:pointer}legend{display:block}
+.container{
+    max-width: 1330px;
+    margin: 0px auto;
+}
+.napominalocka{
+    font-size: 150px;
+    
+}
+body{
+    color: #fff;
+    background: linear-gradient(134.41deg, rgba(3, 9, 29, 1) 13.47%, #132059 56.64%, #03091D 90.93%) ;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+a{
+    color: #fff;    
+}
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    
+}
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.9;
+    margin-top: 15px;
+}
+.section-padding{
+    padding: 130px 0px 0px 0px;
+}
+.dn{
+    display: none !important;
+}
+.item-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+}
+.item-text {
+    font-size: 16px;
+    line-height: 138%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import "_main.scss";
