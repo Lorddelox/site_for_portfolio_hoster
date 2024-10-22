@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -20,7 +23,7 @@
                         <img src="../img/header/icons/1.svg" alt="">
                         hosting@gmail.com
                     </a>
-                    <a class="contacts-header__item" href="91999999999">
+                    <a class="contacts-header__item" href="tel:+79222785652">
                         <img src="../img/header/icons/2.svg" alt="">
                         +91 999999999
                     </a>
@@ -52,11 +55,42 @@
                     <div class="nav-header__control-panel">
                         <img src="../img/header/icons/nav 1.svg" alt="" class="nav-header__search">
                         <img src="../img/header/icons/nav 2.svg" alt="" class="nav-header__world">
-                        <button class="nav-header__control-panel-btn nav-header__login">login</button>
-                        <button class="nav-header__control-panel-btn nav-header__sign-up">Sign Up</button>
+                        <div class="nav-header__control-panel-btn-wrapper">
+                            <button class="nav-header__control-panel-btn nav-header__login">login</button>
+                            <button class="nav-header__control-panel-btn nav-header__sign-up">Sign Up</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="nav-header__column">
+                    <div class="nav-header__burger-btn-wrapper ">
+                        <img src="../img/header/icons/burger-open.svg" class="nav-header__burger-btn " alt="">
                     </div>
                 </div>
             </nav>
+            <div class="header__burger burger hide">
+
+                <ul class="burger__links-wrapper">
+                    <li class="burger__link"><a href="#">Home</a></li>
+                    <li class="burger__link"><a href="#">Domain</a></li>
+                    <li class="burger__link"><a href="#">Web Hosting</a></li>
+                    <li class="burger__link"><a href="#">Reseller Hosting</a></li>
+                    <li class="burger__link"><a href="#">Servers</a></li>
+                    <li class="burger__link"><a href="#">Security</a></li>
+                </ul>
+
+
+                <div class="burger__control-panel">
+                    <img src="../img/header/icons/nav 1.svg" alt="" class="burger__search">
+                    <img src="../img/header/icons/nav 2.svg" alt="" class="burger__world">
+                    <div class="burger__control-panel-btn-wrapper">
+                        <button class="nav-header__control-panel-btn nav-header__login">login</button>
+                        <button class="nav-header__control-panel-btn nav-header__sign-up">Sign Up</button>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </header>
     <section class="banner container">
@@ -234,7 +268,7 @@
         </div>
     </section>
     <section class="pricing section-padding container">
-        <div>
+        <div class="pricing__section-title">
             <div class="pricing__title title">
                 Pricing Plans
             </div>
@@ -243,7 +277,7 @@
             </div>
         </div>
 
-        <div class="pricing__price-change-wrapper">
+        <div class="pricing__price-change-wrapper ">
             <div class="pricing__price-change">
                 <button class="pricing__price-change-btn pricing__price-change-btn--active">Monthly</button>
                 <button class="pricing__price-change-btn">Yearly</button>
@@ -327,6 +361,110 @@
                     <div class="pricing__item-price-column">
                         <div class="pricing__item-price-row">
                             <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 999/<span>Mo</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column dn">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>199</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    With private server environment, experience performance & reliability of managed hosting.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> SSD Storage</li>
+                    <li> <img src="../img/pricing/ul.svg"> Guaranteed CPU & RAM</li>
+                    <li> <img src="../img/pricing/ul.svg"> cPanel/Plesk (Optional)</li>
+                    <li> <img src="../img/pricing/ul.svg"> SSH/RDP Access</li>
+                    <li> <img src="../img/pricing/ul.svg"> 30 Days Money Back</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">View Plans</button>
+                </div>
+            </div>
+        </div>
+        <div class="pricing__content ">
+            <div class="pricing__item">
+                <div class="pricing__item-title">
+                    Wordpress Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 950/<span>Ye</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline ">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>2 388</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    All inclusive WordPress Hosting with 24/7 live support and pre-installed WP, theme and plugins.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> Preinstalled WordPress</li>
+                    <li> <img src="../img/pricing/ul.svg"> Preinstalled Themes/Plugins</li>
+                    <li> <img src="../img/pricing/ul.svg"> Free Migration Assistance</li>
+                    <li> <img src="../img/pricing/ul.svg"> WP Optimized Environment</li>
+                    <li> <img src="../img/pricing/ul.svg"> 30 Days Money Back</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">View Plans</button>
+                </div>
+            </div>
+            <div class="pricing__item pricing__item--active ">
+                <div class="pricing__item-title">
+                    Shared Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 1 350/<span>Ye</span>
+                        </div>
+
+                    </div>
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row  pricing__item-price-crossline ">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""><span>1 788</span> <br>
+                        </div>
+
+                        <div class="pricing__item-price-sales">Save 50 %</div>
+                    </div>
+                </div>
+                <div class="pricing__item-text">
+                    Host multiple websites over our feature-rich shared hosting delivering 99.95% Uptime.
+                </div>
+                <ul class="pricing__item-info">
+                    <li> <img src="../img/pricing/ul.svg"> Free Domain</li>
+                    <li> <img src="../img/pricing/ul.svg"> Host Multiple Websites</li>
+                    <li> <img src="../img/pricing/ul.svg"> Unmetered Bandwidth</li>
+                    <li> <img src="../img/pricing/ul.svg"> Daily Backups</li>
+                    <li> <img src="../img/pricing/ul.svg"> 99.95% Uptime</li>
+                    <li> <img src="../img/pricing/ul.svg"> 24x7 Support</li>
+                </ul>
+                <div class="pricing__item-btn-wrapper">
+                    <button class="pricing__item-btn">Choose Plan</button>
+                </div>
+            </div>
+            <div class="pricing__item">
+                <div class="pricing__item-title">
+                    VPS Hosting
+                </div>
+                <div class="pricing__item-price">
+                    <div class="pricing__item-price-column">
+                        <div class="pricing__item-price-row">
+                            <img src="../img/pricing/bi_currency-rupee.svg" alt=""> 8 391/<span>Ye</span>
                         </div>
 
                     </div>
@@ -448,9 +586,9 @@
                 Your trusted hosting partner since 2005. Here's what some of our customers say about HOST.CO.IN
             </div>
         </div>
-        <div class="comments__slider">
-            <div class="comments__slider-wrapper">
-                <div class="comments__slide">
+        <div class="comments__slider swiper">
+            <div class="comments__slider-wrapper swiper-wrapper">
+                <div class="comments__slide swiper-slide">
                     <div class="comments__slide-img">
                         <img src="../img/comments/1.jpg" alt="">
                     </div>
@@ -469,7 +607,7 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <div class="comments__slide">
+                <div class="comments__slide swiper-slide">
                     <div class="comments__slide-img">
                         <img src="../img/comments/2.jpg" alt="">
                     </div>
@@ -488,7 +626,7 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <div class="comments__slide">
+                <div class="comments__slide swiper-slide">
                     <div class="comments__slide-img">
                         <img src="../img/comments/3.jpg" alt="">
                     </div>
@@ -507,6 +645,50 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
+                <div class="comments__slide swiper-slide">
+                    <div class="comments__slide-img">
+                        <img src="../img/comments/3.jpg" alt="">
+                    </div>
+                    <div class="comments__slide-content">
+                        My company has had a great long standing relationship with Host. Their response time and
+                        customer support has been a boon.
+                    </div>
+                    <div class="comments__slide-name">
+                        Mr. Yogesh Gosavi
+                    </div>
+                    <div class="comments__slide-rate">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+                <div class="comments__slide swiper-slide">
+                    <div class="comments__slide-img">
+                        <img src="../img/comments/3.jpg" alt="">
+                    </div>
+                    <div class="comments__slide-content">
+                        My company has had a great long standing relationship with Host. Their response time and
+                        customer support has been a boon.
+                    </div>
+                    <div class="comments__slide-name">
+                        Mr. Yogesh Gosavi
+                    </div>
+                    <div class="comments__slide-rate">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev comments__button-prev">
+                <img src="../img/comments/arrow.svg" alt="prev-arrow">
+            </div>
+            <div class="swiper-button-next comments__button-next">
+                <img src="../img/comments/arrow.svg" alt="next-arrow">
             </div>
         </div>
     </section>
@@ -716,6 +898,7 @@
             </div>
         </div>
     </footer>
+    <script src="../../dist/bundle.js"></script>
 </body>
 
 </html>
